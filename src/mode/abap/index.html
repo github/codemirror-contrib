@@ -1,0 +1,33 @@
+<!doctype html>
+<title>CodeMirror: ABAP mode</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../../../node_modules/codemirror/lib/codemirror.css">
+<link rel="stylesheet" href="../../../node_modules/codemirror/theme/mbo.css">
+<script src="../../../node_modules/codemirror/lib/codemirror.js"></script>
+<script src="../../../lib.js"></script>
+<style>
+	.CodeMirror { border: 2px inset #dee; }
+</style>
+
+<div id=nav>
+  <a href="http://codemirror.net"><h1>CodeMirror</h1></a>
+</div>
+
+<article>
+<h2>ABAP mode</h2>
+<form><textarea id="code" name="code">
+REPORT zfoobar.
+
+WRITE: 'Hello world'.
+</textarea></form>
+
+<script>
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  lineNumbers: true,
+  theme: "mbo",
+  mode: "text/abap"
+});
+</script>
+
+<p><strong>MIME types defined:</strong> <code>text/abap</code> (ABAP code)</p>
+</article>
