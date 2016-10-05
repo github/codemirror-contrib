@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/github/codemirror-contrib#readme",
   "devDependencies": {
+    "eslint": "^3.7.1",
     "rollup": "^0.36.1"
   },
   "dependencies": {
