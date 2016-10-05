@@ -4,13 +4,13 @@
 
 import CodeMirror from "codemirror/lib/codemirror";
 
-CodeMirror.defineMode("abap", function() {
-  const COMMENT  = "comment";
-  const STRING   = "string";
-  const NUMBER   = "number";
-  const KEYWORD  = "keyword";
+CodeMirror.defineMode("abap", () => {
+  const COMMENT = "comment";
+  const STRING = "string";
+  const NUMBER = "number";
+  const KEYWORD = "keyword";
   const OPERATOR = "operator";
-  const ERROR    = "error";
+  const ERROR = "error";
 
   function setupKeywords(str) {
     let list = str.split(" ");

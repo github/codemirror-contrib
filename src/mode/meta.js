@@ -1,6 +1,6 @@
 import CodeMirror from "codemirror/lib/codemirror"
-import * as ABAP from "./abap/abap.js";
+import "./abap/abap"
 
 CodeMirror.modeInfo = CodeMirror.modeInfo.concat([
-  {name: "ABAP", mime: "text/abap", mode: "abap", ext: ["abap"]},
+  {name: "ABAP", mime: "text/abap", mode: "abap", ext: ["abap"]}
 ])
