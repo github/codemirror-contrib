@@ -1,5 +1,6 @@
 all: \
-	lib/mode/meta.js
+	lib/mode/meta.js \
+	lib/mode/abap/abap.js
 
 lib/%.js: src/%.js
 	mkdir -p $(@D)
@@ -8,4 +9,4 @@ lib/%.js: src/%.js
 lint:
 	./node_modules/.bin/eslint src/
 
-test: lint
+test: all lint

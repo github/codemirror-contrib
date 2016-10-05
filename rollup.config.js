@@ -1,3 +1,5 @@
+import buble from 'rollup-plugin-buble'
+
 export default {
   format: 'umd',
   external: [
@@ -5,5 +7,6 @@ export default {
   ],
   paths: {
     'codemirror': 'codemirror/lib/codemirror'
-  }
+  },
+  plugins: [buble()]
 }
