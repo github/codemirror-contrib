@@ -7,6 +7,10 @@
     "prepublish": "make clean all",
     "test": "make test"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/github/codemirror-contrib.git"
