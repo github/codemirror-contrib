@@ -10,3 +10,6 @@ lint:
 	./node_modules/.bin/eslint src/
 
 test: all lint
+
+clean:
+	git clean -fdx lib/
