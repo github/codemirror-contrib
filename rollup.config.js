@@ -4,11 +4,11 @@ export default {
   format: 'umd',
   external: [
     'codemirror/lib/codemirror',
-    'codemirror/lib/mode/meta'
+    'codemirror/mode/meta'
   ],
   globals: {
     'codemirror/lib/codemirror': 'CodeMirror',
-    'codemirror/lib/mode/meta': 'undefined'
+    'codemirror/mode/meta': 'undefined'
   },
   paths: {
     'codemirror': 'codemirror/lib/codemirror'
