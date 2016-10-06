@@ -1,6 +1,6 @@
 {
   "name": "codemirror-contrib",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CodeMirror community contributions",
   "scripts": {
     "build": "make all",
