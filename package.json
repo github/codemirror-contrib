@@ -4,6 +4,7 @@
   "description": "CodeMirror community contributions",
   "scripts": {
     "build": "make all",
+    "prepublish": "make clean all",
     "test": "make test"
   },
   "repository": {
